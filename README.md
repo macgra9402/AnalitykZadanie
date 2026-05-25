@@ -16,8 +16,8 @@ Szczegóły takie jak pełny model danych, mapowanie pól JIRA, mapowanie odpowi
 
 - [docs/business-overview.md](docs/business-overview.md) - biznesowy opis problemu, zmiany procesu i wartości rozwiązania.
 - [docs/solution-specification.md](docs/solution-specification.md) - główna specyfikacja koncepcji rozwiązania: proces, architektura, integracje, AI, MVP, ryzyka i trade-offy.
-- [diagrams/metabot-as-is.drawio](diagrams/metabot-as-is.drawio) - diagram AS-IS Event Storming obecnego procesu reklamacyjnego.
-- [diagrams/metabot-to-be-main-flow.drawio](diagrams/metabot-to-be-main-flow.drawio) - diagram TO-BE Event Storming procesu docelowego.
+- [diagrams/as-is-event-storming.png](diagrams/as-is-event-storming.png) - diagram AS-IS Event Storming obecnego procesu reklamacyjnego.
+- [diagrams/to-be-event-storming.png](diagrams/to-be-event-storming.png) - diagram TO-BE Event Storming procesu docelowego.
 
 ## Jak czytać materiały
 
