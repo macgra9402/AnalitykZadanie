@@ -2,13 +2,13 @@
 
 ## Cel dokumentacji
 
-Repozytorium przedstawia koncepcję usprawnienia procesu obsługi reklamacji dla Metabot / Metalpol. Materiały pokazują zrozumienie procesu **AS-IS**, kierunek procesu **TO-BE**, rolę automatyzacji AI, integracje z istniejącymi systemami, zakres MVP, ryzyka, metryki i główne decyzje projektowe.
+Repozytorium zawiera zwięzłą dokumentację koncepcji usprawnienia procesu obsługi reklamacji dla Metabot / Metalpol. Materiały obejmują wizję biznesową, specyfikację rozwiązania oraz diagramy Event Storming **AS-IS** i **TO-BE** przygotowane jako eksporty z Miro.
 
-Dokumentacja została przygotowana z perspektywy analityka automatyzacji AI. Koncentruje się na uporządkowaniu procesu, określeniu roli AI, integracji istniejących systemów, punktów kontroli człowieka, metryk oraz granic MVP. Nie jest to pełna specyfikacja wdrożeniowa ani implementacja techniczna.
+Koncepcja koncentruje się na uporządkowaniu procesu, określeniu roli AI, integracji istniejących systemów, punktów kontroli człowieka, metryk oraz granic MVP. Nie jest to pełna specyfikacja wdrożeniowa ani implementacja techniczna.
 
 ## Zakres
 
-Dokumentacja ma charakter procesowo-architektoniczny na poziomie analitycznym. Nie jest kompletną specyfikacją produkcyjnego wdrożenia ani pełnym backlogiem implementacyjnym.
+Dokumentacja przedstawia koncepcję procesowo-architektoniczną na poziomie analitycznym. Nie jest pełną specyfikacją wdrożeniową, backlogiem implementacyjnym ani konfiguracją produkcyjną.
 
 Szczegóły takie jak pełny model danych, mapowanie pól JIRA, mapowanie odpowiedzi SAP, progi poziomu pewności AI, polityka ponowień, konfiguracja produkcyjna i harmonogram wdrożenia powinny zostać doprecyzowane w etapie discovery/warsztatowym.
 
@@ -16,8 +16,8 @@ Szczegóły takie jak pełny model danych, mapowanie pól JIRA, mapowanie odpowi
 
 - [docs/business-overview.md](docs/business-overview.md) - biznesowy opis problemu, zmiany procesu i wartości rozwiązania.
 - [docs/solution-specification.md](docs/solution-specification.md) - główna specyfikacja koncepcji rozwiązania: proces, architektura, integracje, AI, MVP, ryzyka i trade-offy.
-- [diagrams/metabot-as-is.drawio](diagrams/metabot-as-is.drawio) - diagram AS-IS Event Storming obecnego procesu reklamacyjnego.
-- [diagrams/metabot-to-be-main-flow.drawio](diagrams/metabot-to-be-main-flow.drawio) - diagram TO-BE Event Storming procesu docelowego.
+- [diagrams/as-is-event-storming.png](diagrams/as-is-event-storming.png) - diagram AS-IS Event Storming obecnego procesu reklamacyjnego.
+- [diagrams/to-be-event-storming.png](diagrams/to-be-event-storming.png) - diagram TO-BE Event Storming procesu docelowego.
 
 ## Jak czytać materiały
 
