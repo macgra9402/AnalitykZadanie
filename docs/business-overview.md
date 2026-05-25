@@ -4,7 +4,7 @@
 
 Ten dokument opisuje biznesową wizję usprawnienia procesu reklamacyjnego. Pokazuje, jaki problem rozwiązujemy, co zmienia się dla pracowników i jakie korzyści może uzyskać firma.
 
-Perspektywa dokumentu jest analityczna: celem jest uporządkowanie procesu, odpowiedzialności, powtarzalnych czynności, punktów kontroli człowieka i mierzalnych efektów automatyzacji AI.
+Dokument koncentruje się na uporządkowaniu procesu, odpowiedzialności, powtarzalnych czynności, punktów kontroli człowieka i mierzalnych efektów automatyzacji AI.
 
 Nie jest to kompletna specyfikacja wdrożeniowa ani gotowy plan implementacji. Szczegółowy budżet, zakres MVP, harmonogram, konfiguracja systemów, mapowania integracji i finalny backlog powinny zostać doprecyzowane w osobnym etapie discovery/warsztatowym.
 
@@ -14,16 +14,16 @@ Dziś reklamacje są obsługiwane ręcznie, przez co firma traci czas, spójnoś
 
 ## 2. Co dziś nie działa
 
-Obecny proces zależy od ręcznej pracy Service Specialist i od kilku oddzielnych narzędzi.
+Obecny proces zależy od ręcznej pracy specjalisty serwisu i od kilku oddzielnych narzędzi.
 
 Najważniejsze problemy:
 
-- email reklamacyjny może trafić do spamu albo zostać przeczytany z opóźnieniem,
+- wiadomość reklamacyjna może trafić do spamu albo zostać przeczytana z opóźnieniem,
 - dane z wiadomości są przepisywane ręcznie do Excela,
 - kategorie defektów są przypisywane niespójnie,
 - JIRA i SAP są sprawdzane ręcznie,
 - zarządzanie nie ma wiarygodnych metryk o reklamacjach,
-- Service Specialist działa jak łącznik między Exchange, Excel, JIRA i SAP.
+- specjalista serwisu działa jak ręczny łącznik między Exchange, Excel, JIRA i SAP.
 
 W praktyce oznacza to opóźnienia, backlog, trudniejsze raportowanie i większe ryzyko błędów.
 
@@ -31,9 +31,9 @@ W praktyce oznacza to opóźnienia, backlog, trudniejsze raportowanie i większe
 
 Rozwiązanie porządkuje reklamację zanim trafi ona do pracownika.
 
-System odbiera email reklamacyjny, rejestruje zgłoszenie, wyciąga kluczowe informacje, zapisuje zdjęcia i załączniki, sprawdza klienta, zamówienie oraz partię, a następnie przygotowuje zgłoszenie JIRA do weryfikacji.
+System odbiera wiadomość reklamacyjną, rejestruje zgłoszenie, wyciąga kluczowe informacje, zapisuje zdjęcia i załączniki, sprawdza klienta, zamówienie oraz partię, a następnie przygotowuje zgłoszenie JIRA do weryfikacji.
 
-Service Specialist nie zaczyna już od surowej wiadomości i pustego formularza. Otwiera przygotowaną sprawę, widzi najważniejsze dane w jednym miejscu i może skupić się na ocenie, decyzji oraz komunikacji z klientem.
+Specjalista serwisu nie zaczyna już od surowej wiadomości i pustego formularza. Otwiera przygotowaną sprawę, widzi najważniejsze dane w jednym miejscu i może skupić się na ocenie, decyzji oraz komunikacji z klientem.
 
 ## 4. Rola AI
 
@@ -41,29 +41,29 @@ AI pomaga uporządkować treść reklamacji. Nie podejmuje decyzji za firmę.
 
 AI wspiera proces przez:
 
-- odczytanie i uporządkowanie treści emaila,
+- odczytanie i uporządkowanie treści wiadomości e-mail,
 - wskazanie numeru zamówienia,
 - streszczenie reklamacji,
 - zasugerowanie kategorii defektu,
 - wykrycie brakujących informacji,
-- przygotowanie draftu odpowiedzi,
+- przygotowanie wersji roboczej odpowiedzi,
 - oznaczenie niejasnych spraw do ręcznej weryfikacji.
 
-AI nie uznaje ani nie odrzuca reklamacji. Nie zastępuje Service Specialist. Nie zapisuje danych do SAP. Jego rolą jest przygotowanie informacji, a nie finalna decyzja.
+AI nie uznaje ani nie odrzuca reklamacji. Nie zastępuje specjalisty serwisu. Nie zapisuje danych do SAP. Jego rolą jest przygotowanie informacji, a nie finalna decyzja.
 
 **AI przygotowuje sprawę. Człowiek podejmuje decyzję.**
 
 ## 5. Jak zmienia się praca serwisanta
 
-Przed zmianą Service Specialist:
+Przed zmianą specjalista serwisu:
 
-- czyta surowy email,
+- czyta surową wiadomość e-mail,
 - kopiuje dane do Excela,
 - sprawdza SAP ręcznie,
 - tworzy JIRA ręcznie,
 - pisze odpowiedź od zera.
 
-Po zmianie Service Specialist:
+Po zmianie specjalista serwisu:
 
 - otwiera przygotowany JIRA Complaint,
 - weryfikuje wyciągnięte dane,
@@ -88,9 +88,9 @@ Najważniejsze korzyści:
 - lepszy obraz problematycznych partii lub linii produkcyjnych,
 - proces oparty na rejestrze reklamacji zamiast na ręcznym śledzeniu w Excelu.
 
-## 7. Co zyskuje management
+## 7. Co zyskuje zarząd i kierownictwo
 
-Zarządzanie dostaje dane, których dziś brakuje albo które trzeba zbierać ręcznie.
+Zarząd i kierownictwo dostają dane, których dziś brakuje albo które trzeba zbierać ręcznie.
 
 Przykładowe informacje:
 
@@ -118,7 +118,7 @@ Pierwszy etap powinien być praktyczny i możliwy do wdrożenia bez przebudowy c
 
 MVP obejmuje:
 
-- automatyczne przetwarzanie emaili reklamacyjnych,
+- automatyczne przetwarzanie wiadomości reklamacyjnych,
 - centralny rejestr reklamacji zamiast Excela,
 - archiwum zdjęć i załączników,
 - wsparcie AI w odczycie danych i sugestii kategorii,
@@ -126,7 +126,7 @@ MVP obejmuje:
 - przygotowane zgłoszenie JIRA Complaint,
 - ręczną weryfikację spraw niepewnych,
 - podstawowe metryki dla zarządzania,
-- mechanizm wykrywania pominiętych emaili z Inbox/Junk/Spam.
+- mechanizm wykrywania pominiętych wiadomości z Inbox/Junk/Spam.
 
 To wystarcza, żeby ograniczyć największe straty czasu i poprawić widoczność procesu bez budowania dużej, kosztownej platformy.
 
